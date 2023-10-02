@@ -44,7 +44,6 @@ class RequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(message)
         return
 
-
 def run():
     PORT = 4131
     print(f"Starting server http://localhost:{PORT}/")
