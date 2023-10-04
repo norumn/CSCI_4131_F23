@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Contact form</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="http://localhost:4131/">Home</a></li>
+            <li><a href="http://localhost:4131/testimonies">Testimonials</a></li>
+        </ul>
+    </div>
+    <h4><a href = "http://localhost:4131/">Go Home</a></h4>
+    <form action="/contact" method="get">
+        <p>
+            <label for = "Name"> Name: </label>
+            <input type = "text" name = "Name" id = "Name" > 
+        </p>
+        <p>
+            <label for = "Email"> Email: </label>
+            <input type = "email" name = "Email" id = "Email" placeholder=" What is your email"> 
+        </p>
+        <p>
+            <label> WHat is your favoirtite week </label>
+            <select>
+                
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Friday">Friday</option>
+                <option value="Satuerday">Satuerday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+        </p>
+        <label for = "dateselect"> Pick a random date: </label>
+        <input type = "date" name = "dateselect" id = "dateselect"> 
+        <p>
+            <label> Select if you are a morning or afternoon person</label> <br> 
+            <input type="checkbox" id="Morning" name="Morning">
+            <label for="Morning">I'm a morning person </label><br>
+            <input type="checkbox" id="Afternoon" name="Afternoon" >
+            <label for="Afternoon">I'm an afternon person </label><br>
+        </p>
+        <input type = "submit" value = "Submit"> 
+    </form>
+
+  </body>
+
+
+</html>
